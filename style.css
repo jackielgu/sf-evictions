@@ -683,6 +683,14 @@ text {
   font-size: 14px;
   text-align: left;
 }
+.sources {
+  font-size: 12px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  text-align: left;
+  font-family: 'Noto Serif', serif;
+}
 .year-label {
   stroke-width: 2px;
   stroke-dasharray: 5,5;
