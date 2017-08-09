@@ -17033,7 +17033,7 @@ d3.selection.prototype.moveToFront = function () {
 // 	});
 
 // draw line chart
-svg.append("path").datum(rentData).attr("class", "line-chart").attr("transform", "translate(70,0)").attr("fill", "none").attr("stroke", "steelblue").attr("d", line).on("click", function (d) {
+svg.append("path").datum(rentData).attr("class", "line-chart").attr("transform", "translate(70,0)").attr("fill", "none").attr("stroke", "#2168a3").attr("stroke-width", 2).attr("d", line).on("click", function (d) {
 	d3.select(this).moveToFront();
 });
 
